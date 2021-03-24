@@ -13,7 +13,7 @@
 
 body>*{
     padding: 0 10%;
-    background-color: blue;
+    font-family: Roboto;
 }
 /* /css common rules */
 
@@ -21,6 +21,12 @@ body>*{
 
 header {
     background-color: rgb(12, 50, 90);
+    position: relative;
+    background-image: url(../img/background-header.png);
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    background-position: 110% 110%;
+    height: 650px
 }
 
 .logo {
@@ -37,7 +43,6 @@ header {
 .main_menu {
     width: 50%;
 }
-
 
 ul>li {
     display: inline;
@@ -63,7 +68,52 @@ button {
     background-color: rgb(12, 50, 90);
 }
 
-#structure {
+.structure {
     border: none;
-    background-color: greenyellow;
+    background-color: rgb(124, 187, 2);
+}
+
+.sec_title {
+    height: 800px;
+    position: relative;
+}
+
+.floating_title {
+    position: absolute;
+    top: 200px;
+    width: 45%;
+    color: white;
+    font-size: 35px;
+}
+
+h1 { 
+    margin-bottom: 50px;
+}
+
+.structure_main {
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+
+.structure_main>a {
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+/* /header */
+
+/* css main */
+
+.graybar_box {
+    background-color: lightgray;
+    height: 200px;    
+    text-align: center;
+    position: relative;
+}
+
+.graybar_cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
