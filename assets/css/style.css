@@ -122,7 +122,8 @@ h1 {
 }
 /* /css graybar */
 
-/* css main */
+/* css main - columns */
+
 .columns {
     width: calc(100% / 3 -80px);
     margin-top: 40px;
@@ -156,10 +157,9 @@ h3::after {
     display: block;
     margin: 40px 180px;
 }
+/* /css main - columns */
 
 /* css utility */
-
-
 
 .float {
     float: left;
