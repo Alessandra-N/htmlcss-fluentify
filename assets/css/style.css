@@ -157,7 +157,42 @@ h3::after {
     display: block;
     margin: 40px 180px;
 }
+
+hr{
+    margin: 50px 0;
+}
 /* /css main - columns */
+.large_columns {
+    position: relative
+}
+
+.col_left>img {
+    height: 500px;
+}
+
+.col_left {
+    width: 40%;
+    margin: 100px;
+}
+
+.col_right {
+    padding: 5%;
+    width: 40%;
+}
+
+.col_right {
+    margin-top: 200px;
+}
+
+.col_right>p {
+    margin: 20px 0;
+}
+
+#scopri {
+    color: lightskyblue;
+    text-transform: none;
+    text-decoration: underline;
+}
 
 /* css utility */
 
